@@ -3,7 +3,7 @@ from setuptools import setup
 setup(name="xorcrypt",
       version="0.2",
       description="Simple encryption software",
-      long_description="README",
+      long_description="README.md",
       long_description_content_type="text/markdown",
       url="http://github.com/tlapka06/xorcrypt",
       author="RTranscriptase",
