@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/xorcrypt/__init__.py
+src/xorcrypt/__main__.py
+src/xorcrypt/_cryptProtocol.py
+src/xorcrypt/xor.py
+src/xorcrypt.egg-info/PKG-INFO
+src/xorcrypt.egg-info/SOURCES.txt
+src/xorcrypt.egg-info/dependency_links.txt
+src/xorcrypt.egg-info/entry_points.txt
+src/xorcrypt.egg-info/requires.txt
+src/xorcrypt.egg-info/top_level.txt
