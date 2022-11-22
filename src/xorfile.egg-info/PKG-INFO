@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: xorfile
+Version: 0.3
+Summary: Simple encryption software
+Author-email: RTranscriptase <mail.me@anidor.org>
+Project-URL: Homepage, http://github.com/tlapka06/xorfile
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+xorfile (v0.3)
+===============
+
+Simple file encryption software. 
+For now, it only supports XOR encryption.
+
+Installation
+------------
+`pip3 install xorfile`
+
+Usage
+-----
+```
+TODO: Usage
+  ```
