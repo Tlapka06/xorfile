@@ -18,7 +18,7 @@ dependencies = [
 ]
 
 [project.scripts]
-xorcrypt = "xorfile:main"
+xorfile = "xorfile:main"
 
 [project.urls]
 "Homepage" = "http://github.com/tlapka06/xorfile"
