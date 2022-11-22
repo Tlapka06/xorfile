@@ -1,6 +1,6 @@
 [project]
-name = "xorcrypt"
-version = "0.2"
+name = "xorfile"
+version = "0.3"
 authors = [
   { name="RTranscriptase", email="mail.me@anidor.org" },
 ]
@@ -18,10 +18,10 @@ dependencies = [
 ]
 
 [project.scripts]
-xorcrypt = "xorcrypt:main"
+xorcrypt = "xorfile:main"
 
 [project.urls]
-"Homepage" = "http://github.com/tlapka06/xorcrypt"
+"Homepage" = "http://github.com/tlapka06/xorfile"
 
 [build-system]
 requires = ["setuptools>=61.0"]
