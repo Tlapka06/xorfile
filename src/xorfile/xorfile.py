@@ -6,7 +6,6 @@ import hashlib, mmap, os, sys
 # md5 checksum (16b)
 ## DATA
 # encrypted data
-# 4 byte end integer
 
 
 class XorFile():
@@ -42,6 +41,7 @@ class XorFile():
         self.close()
         
     def write(self, key: bytes, dataPath: str) -> None:
+        """Encrypts dataPath contents into the XOR file"""
         if self.mode != "r":
             with open(dataPath, "rb") as data_f:
                 with mmap.mmap(data_f.fileno(), length=0, access=mmap.ACCESS_READ) as data_map:
